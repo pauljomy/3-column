@@ -5,7 +5,9 @@ import CategoryCard from "./CategoryCard";
 
 export default function CardGrid() {
   return (
-    <div className={`my-16 text-white  rounded-sm`}>
+    <div
+      className={`my-16 mx-6 text-white  rounded-sm overflow-hidden xl:flex max-w-230 `}
+    >
       <CategoryCard
         categoryIcon={sedanIcon}
         categoryTitle="Sedans"
@@ -15,7 +17,7 @@ export default function CardGrid() {
       />
       <CategoryCard
         categoryIcon={suvIcon}
-        categoryTitle="Sedan"
+        categoryTitle="SUVs"
         categoryDescription="Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures."
         bgColor="bg-card-suv"
         btnTextColor="text-card-suv"
