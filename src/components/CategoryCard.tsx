@@ -14,7 +14,7 @@ export default function CategoryCard({
   btnTextColor,
 }: CategoryCardProps) {
   return (
-    <div className={`bg-${bgColor} p-12 mx-6  rounded-sm`}>
+    <div className={`${bgColor} p-12 mx-6 `}>
       <img src={categoryIcon} className={`mb-8`} alt="An icon of sedan" />
       <h3 className={`font-title text-[2.5em] mb-6 `}>{categoryTitle}</h3>
       <p className={`font-description font-light text-[15px] mb-6 leading-7`}>
